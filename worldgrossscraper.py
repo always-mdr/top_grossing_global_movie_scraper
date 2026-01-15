@@ -112,3 +112,4 @@ def scrape_global_blockbusters():
 
 if __name__ == "__main__":
     scrape_global_blockbusters()
+
