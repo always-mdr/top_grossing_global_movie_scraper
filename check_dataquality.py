@@ -3,7 +3,7 @@ import os
 
 
 def audit_data():
-    file_name = "top_50_worldwide_films.csv"
+    file_name = "top_100_worldwide_films.csv"
 
     # 1. CHECK IF FILE EXISTS
     if not os.path.exists(file_name):

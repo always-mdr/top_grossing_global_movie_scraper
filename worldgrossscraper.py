@@ -50,7 +50,7 @@ def scrape_global_blockbusters():
 
     for row in rows:
         cols = row.find_all(['td', 'th'])
-        if len(movies) >= 50: break
+        if len(movies) >= 100: break
         if len(cols) < 3: continue
 
         try:
@@ -106,7 +106,7 @@ def scrape_global_blockbusters():
 
     # --- SAVE ---
     df = pd.DataFrame(movies)
-    df.to_csv("top_50_worldwide_films.csv", index=False)
+    df.to_csv("top_100_worldwide_films.csv", index=False)
     print(f"3. ✅ Saved clean data (Rows: {len(df)})")
 
 
