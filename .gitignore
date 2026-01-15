@@ -1,0 +1,14 @@
+# Ignore Python system files
+__pycache__/
+*.pyc
+
+# Ignore Virtual Environments (Make sure this matches your folder name)
+.venv/
+venv/
+env/
+
+# Ignore Mac/Windows system files
+.DS_Store
+
+# Ignore Secrets (Just in case you have keys from before)
+config.py
